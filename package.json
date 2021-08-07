@@ -1,0 +1,19 @@
+{
+  "name": "multi-select-hook",
+  "version": "1.0.0",
+  "description": "A bare bones react hook for multi selecting objects.",
+  "main": "lib/index.js",
+  "scripts": {},
+  "keywords": [
+    "react",
+    "react-hook",
+    "multi-select",
+    "bare-bones",
+    "typescript"
+  ],
+  "author": {
+    "name": "Chinmay Vibhute",
+    "url": "https://github.com/itsChinVib"
+  },
+  "license": "Unlicense"
+}
