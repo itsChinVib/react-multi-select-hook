@@ -5,7 +5,7 @@ interface GenericSelectObject<Type> {
   [key: string]: Type;
 }
 
-const useMultiSelect = <T>() => {
+export const useMultiSelect = <T>() => {
   const [objStore, setObjStore] = useState<GenericSelectObject<T>>({});
   const [storeKeys, setStoreKeys] = useState<string[]>([]);
   const [selectedKeys, setSelectedKeys] = useState<string[]>([]);
@@ -77,5 +77,3 @@ const useMultiSelect = <T>() => {
     unSelectAll,
   };
 };
-
-export default { useMultiSelect };
